@@ -3,16 +3,53 @@
   margin: 0;
   padding: 0; }
 
+.header {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vh; }
+
 .adalWed {
   position: fixed;
   background-color: #0271bc;
   height: 44px;
   width: 44px;
   display: flex;
-  justify-content: center; }
+  align-items: center;
+  padding: 15px 14px; }
 
-.hero {
-  height: 320px;
-  width: 568px; }
+.title {
+  background-image: url("/assets/images/cover.jpg");
+  width: 320px;
+  height: 568px;
+  text-align: center; }
+
+.title1 {
+  text-transform: uppercase;
+  color: white;
+  height: 110px;
+  width: 290px;
+  padding: 284px 15px 10px 15px;
+  font-family: "Roboto Slab", serif;
+  font-size: 42px;
+  text-transform: capitalize;
+  text-transform: uppercase; }
+
+.subtitle {
+  color: white;
+  font-size: 16px;
+  font-size: "Roboto";
+  height: 21px;
+  width: 290px;
+  padding: 15px 10px 45px 15px;
+  margin-top: 90px;
+  margin-left: 15px;
+  text-align: center;
+  justify-content: center;
+  text-align: center; }
+
+.main {
+  width: 320px;
+  height: 376px; }
 
 /*# sourceMappingURL=main.css.map */
