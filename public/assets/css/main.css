@@ -3,4 +3,16 @@
   margin: 0;
   padding: 0; }
 
+.adalWed {
+  position: fixed;
+  background-color: #0271bc;
+  height: 44px;
+  width: 44px;
+  display: flex;
+  justify-content: center; }
+
+.hero {
+  height: 320px;
+  width: 568px; }
+
 /*# sourceMappingURL=main.css.map */
