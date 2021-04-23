@@ -1,4 +1,35 @@
 .main {
   width: 320px;
   height: 376px;
+  justify-content: flex-end;
+}
+
+.section1 {
+  width: 320px;
+  height: 376px;
+  background-color: #ffffff;
+}
+
+.div {
+  width: 90px;
+  height: 30px;
+  padding: 30px;
+  color: #8ccbea;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px 30px 1px 15px;
+}
+.looking {
+  width: 290px;
+  height: 60px;
+  margin: 1px 0 15px;
+}
+
+.text {
+  width: 320px;
+  height: 376px;
+}
+
+.go {
+  width: 25px;
+  height: 45px;
 }
