@@ -1,1 +1,59 @@
+.container {
+  height: 465px;
+  background-color: #304268;
+  font-family: $font-main;
+  font-size: 16px;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+  color: $color-footer-text;
+  position: relative;
 
+  &__scroll {
+    background-color: $color-title;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__scroll img {
+    width: 20px;
+  }
+
+  & a {
+    text-decoration: none;
+    color: $color-footer-text;
+  }
+
+  &__box {
+    font-family: $font-main;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.88;
+    padding-bottom: 30px;
+    text-decoration: none;
+    padding-top: 60px;
+  }
+
+  &__box2 {
+    font-family: $font-main;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.88;
+    margin-bottom: 30px;
+  }
+
+  &__box3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  &__heart {
+    color: $color-heart;
+  }
+}
