@@ -1,9 +1,12 @@
-.main {
+.looking {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 0.94rem;
-  margin-right: 0.94rem;
+  margin: 0 0.94rem;
+
+  @media all and (min-width: 768px) {
+    margin: 0 2.4rem;
+  }
 
   &__label {
     color: $color-label;
@@ -14,7 +17,6 @@
   }
 
   &__title {
-    width: 12.5rem;
     color: $color-bg-label;
     font-family: $font-title;
     font-weight: normal;
@@ -23,6 +25,11 @@
     padding-top: 1rem;
     margin-bottom: 0.94rem;
     text-transform: capitalize;
+
+    @media all and (min-width: 768px) {
+      margin-bottom: 1.875rem;
+      font-size: 1.62rem;
+    }
   }
 
   &__text {
@@ -31,11 +38,15 @@
     margin-right: 0.94rem;
     font-size: 1.12rem;
     font-weight: normal;
+
+    @media all and (min-width: 768px) {
+      font-size: 1.25rem;
+    }
   }
 
   &__button {
     font-family: $font-main;
-    font-weight: bold;
+    font-weight: 500;
     text-transform: capitalize;
     font-size: 1.25rem;
     text-decoration: none;
@@ -44,13 +55,17 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    border: 0.19rem solid #f26002;
+    border: 0.125rem solid #f26002;
     border-radius: 1.3rem;
     width: 4.75rem;
     height: 45px;
     padding-top: 0;
-    margin-top: 1.8rem;
+    margin-top: 1.875rem;
     margin-bottom: 2.8rem;
+
+    @media all and (min-width: 768px) {
+      width: 5.688rem;
+    }
 
     &:hover {
       background-color: rgb(238, 221, 174);
