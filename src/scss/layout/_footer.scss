@@ -30,6 +30,14 @@
     color: $color-footer-text;
   }
 
+  a {
+    color: $color-footer-text;
+    transition: color ease 0.2s;
+    &:hover {
+      color: $color-go;
+    }
+  }
+
   &__box {
     font-family: $font-main;
     font-size: 16px;
@@ -38,6 +46,7 @@
     padding-bottom: 30px;
     text-decoration: none;
     padding-top: 60px;
+    transition: color ease 3s;
   }
 
   &__box2 {
