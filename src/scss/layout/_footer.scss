@@ -9,7 +9,7 @@
   text-decoration: none;
   color: $color-footer-text;
   position: relative;
-  padding-top: 2.8rem;
+  padding-top: 3.75rem;
 
   @media all and (min-width: 768px) {
     flex-direction: row;
@@ -17,6 +17,11 @@
     text-align: left;
     height: 15rem;
     padding-left: 2.4rem;
+  }
+
+  @media all and (min-width: 1120px) {
+    padding-left: 23.125rem;
+    padding-right: 23.125rem;
   }
 
   &__scroll {
@@ -39,13 +44,10 @@
   & a {
     text-decoration: none;
     color: $color-footer-text;
-  }
-
-  a {
-    color: $color-footer-text;
-    transition: ease-in-out 0.6s;
+    transition: ease-in-out 0.3s;
     &:hover {
       color: $color-go;
+      text-decoration: underline;
     }
   }
 
@@ -56,7 +58,6 @@
     line-height: 1.88;
     padding-bottom: 1.8rem;
     text-decoration: none;
-    padding-top: 3.7rem;
     transition: color ease 3s;
     list-style: none;
     flex-grow: 1;
@@ -90,6 +91,7 @@
   }
 
   &__heart {
+    padding-top: 1rem;
     color: $color-heart;
   }
 }

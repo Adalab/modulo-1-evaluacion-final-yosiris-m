@@ -2,10 +2,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 0.94rem;
+  margin: 0 auto;
+  width: 18.125rem;
 
   @media all and (min-width: 768px) {
-    margin: 0 2.4rem;
+    width: 43.125rem;
+  }
+
+  @media all and (min-width: 1120px) {
+    width: 45.625rem;
   }
 
   &__label {
@@ -13,7 +18,11 @@
     padding-top: 1.87rem;
     font-family: $font-main;
     font-weight: normal;
-    font-size: 0.875;
+    font-size: 0.875rem;
+
+    @media all and (min-width: 1120px) {
+      font-size: 1rem;
+    }
   }
 
   &__title {
@@ -29,6 +38,10 @@
     @media all and (min-width: 768px) {
       margin-bottom: 1.875rem;
       font-size: 1.62rem;
+    }
+
+    @media all and (min-width: 1120px) {
+      font-size: 2rem;
     }
   }
 
@@ -67,6 +80,10 @@
       width: 5.688rem;
     }
 
+    @media all and (min-width: 1120px) {
+      width: 10rem;
+    }
+
     &:hover {
       background-color: rgb(238, 221, 174);
       color: #f26002;
@@ -78,13 +95,13 @@
   background-color: $color-bg-purchase;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: 1fr repeat(4, 2fr);
   text-align: center;
   align-items: center;
 
   @media all and (min-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 2fr;
   }
 
   &__title {
@@ -95,6 +112,10 @@
 
     @media all and (min-width: 768px) {
       grid-column: 1/4;
+    }
+
+    @media all and (min-width: 1120px) {
+      font-size: 1.625rem;
     }
   }
 
@@ -131,6 +152,7 @@
   &__sectionbutton {
     grid-row-start: 5;
     justify-self: center;
+    align-self: center;
     margin-bottom: 3.7rem;
 
     @media all and (min-width: 768px) {
@@ -143,8 +165,9 @@
     background-color: #f26002;
     border: 0.12rem solid #f26002;
     border-radius: 1.3rem;
-    width: 11.8rem;
+    width: 11.5rem;
     height: 2.8rem;
+    margin-top: 1rem;
 
     // TODO revisar si esta bien poner flex a un enlace
     display: flex;
@@ -161,6 +184,15 @@
     &:hover {
       background-color: white;
       color: #f26002;
+    }
+
+    @media all and (min-width: 768px) {
+      width: 13.125rem;
+      // margin-top: 3.75rem;
+    }
+
+    @media all and (min-width: 1120px) {
+      width: 15.938rem;
     }
   }
 
