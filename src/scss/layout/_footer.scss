@@ -1,13 +1,23 @@
-.container {
+.footer {
   height: 29rem;
   background-color: #304268;
   font-family: $font-main;
   font-size: 1rem;
+  display: flex;
   flex-direction: column;
   text-align: center;
   text-decoration: none;
   color: $color-footer-text;
   position: relative;
+  padding-top: 2.8rem;
+
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    height: 15rem;
+    padding-left: 2.4rem;
+  }
 
   &__scroll {
     background-color: $color-title;
@@ -18,6 +28,7 @@
     justify-content: center;
     position: absolute;
     left: 50%;
+    top: 0;
     transform: translate(-50%, -50%);
   }
 
@@ -47,6 +58,12 @@
     text-decoration: none;
     padding-top: 3.7rem;
     transition: color ease 3s;
+    list-style: none;
+    flex-grow: 1;
+
+    @media all and (min-width: 768px) {
+      padding-top: 0;
+    }
   }
 
   &__box2 {
@@ -55,11 +72,21 @@
     text-transform: uppercase;
     line-height: 1.88;
     margin-bottom: 1.8rem;
+    list-style: none;
+    flex-grow: 1;
+
+    @media all and (min-width: 768px) {
+      margin-bottom: 0;
+    }
   }
 
   &__box3 {
-    text-align: center;
     margin-bottom: 1.2rem;
+    flex-grow: 1;
+
+    @media all and (min-width: 768px) {
+      order: -1;
+    }
   }
 
   &__heart {
