@@ -51,37 +51,24 @@
     }
   }
 
-  &__box {
+  &__ul {
     font-family: $font-main;
     font-size: 1rem;
     text-transform: uppercase;
-    line-height: 1.88;
-    padding-bottom: 1.8rem;
-    text-decoration: none;
-    transition: color ease 3s;
+    line-height: 1.88rem;
     list-style: none;
+  }
+
+  &__nav {
     flex-grow: 1;
+    padding-bottom: 1.8rem;
 
     @media all and (min-width: 768px) {
       padding-top: 0;
     }
   }
 
-  &__box2 {
-    font-family: $font-main;
-    font-size: 1rem;
-    text-transform: uppercase;
-    line-height: 1.88;
-    margin-bottom: 1.8rem;
-    list-style: none;
-    flex-grow: 1;
-
-    @media all and (min-width: 768px) {
-      margin-bottom: 0;
-    }
-  }
-
-  &__box3 {
+  &__copy {
     margin-bottom: 1.2rem;
     flex-grow: 1;
 
