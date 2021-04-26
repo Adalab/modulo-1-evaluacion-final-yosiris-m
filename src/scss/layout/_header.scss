@@ -26,9 +26,11 @@
     font-weight: 25rem;
     font-size: 2.6rem;
     text-transform: uppercase;
+    width: 25.625rem;
 
     @media all and (min-width: 768px) {
       font-size: 5rem;
+      width: 45.625rem;
     }
 
     @media all and (min-width: 1120px) {
