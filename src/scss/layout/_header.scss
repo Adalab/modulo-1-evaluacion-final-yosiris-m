@@ -23,8 +23,8 @@
     color: $color-title;
     padding: 0 0 0.6rem 0.98rem;
     font-family: $font-title;
-    font-weight: 25rem;
-    font-size: 2.6rem;
+    font-weight: bold;
+    font-size: 2.625rem;
     text-transform: uppercase;
     word-spacing: 100vw;
 
@@ -65,7 +65,7 @@
       border: 0.125rem solid #f26002;
     }
 
-    & img {
+    .images {
       width: 1.2rem;
     }
 

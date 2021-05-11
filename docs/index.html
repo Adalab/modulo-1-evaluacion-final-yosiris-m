@@ -22,32 +22,35 @@
 
   <body>
     <header class="hero" id="hero">
-      <a href="https://adalab.es/">
-        <img
-          class="hero__fixedMenu"
-          src="./assets/images/ico-menu.svg"
-          alt="menu"
-        />
-      </a>
+      <nav class="hero__fixedMenu">
+        <a href="https://adalab.es/">
+          <img src="./assets/images/ico-menu.svg" alt="menu" title="imagen" />
+        </a>
+      </nav>
       <h1 class="hero__title">Anonymous proxy</h1>
       <p class="hero__subtitle">In hac habitasse platea dictumst.</p>
 
       <a href="#purchase">
         <div class="hero__scrolldown">
-          <img src="./assets/images/ico-scroll-down.svg" alt="scrolldown" />
+          <img
+            class="images"
+            src="./assets/images/ico-scroll-down.svg"
+            alt="scrolldown"
+            title="Scroll"
+          />
         </div>
       </a>
     </header>
 
     <main>
       <section class="looking">
-        <span class="looking__label">Insommia Tips</span>
+        <h6 class="looking__label">Insommia Tips</h6>
         <h2 class="looking__title">looking through a window</h2>
         <p class="looking__text">
           Donec accusam, nulla ut volutpat porttitor, quam odio tempus felis, at
           luctus ex diam nec lectus. Vivamus semper sodales rutrum.
         </p>
-        <a class="looking__button" href="https://adalab.es">go </a>
+        <a class="looking__button" href="https://adalab.es" title="Button">go </a>
       </section>
 
       <section class="reason" id="purchase">
@@ -69,7 +72,9 @@
         </article>
 
         <nav class="reason__sectionbutton">
-          <a href="https://adalab.es" class="reason__button"> more reason </a>
+          <a href="https://adalab.es" class="reason__button" title="links">
+            more reason
+          </a>
         </nav>
       </section>
 
@@ -78,30 +83,34 @@
     <footer class="link-footer">
       <a href="#hero">
         <div class="link-footer__scroll">
-          <img src="./assets/images/ico-arrow.svg" alt="scroll-a" />
+          <img
+            class="scrool-1"
+            src="./assets/images/ico-arrow.svg" title="Scroll"
+            alt="scroll-a"
+          />
         </div>
       </a>
 
       <nav class="link-footer__nav">
-        <ul class="link-footer__ul">
-          <li><a href="https://adalab.es">Books</a></li>
-          <li><a href="https://adalab.es">Events</a></li>
-          <li><a href="https://adalab.es">Reason</a></li>
-          <li><a href="https://adalab.es">Tips</a></li>
-          <li><a href="https://adalab.es">Articles</a></li>
+        <ul class="link-footer__ulink">
+          <li><a class="block1" href="https://adalab.es">Books</a></li>
+          <li><a class="block1" href="https://adalab.es">Events</a></li>
+          <li><a class="block1" href="https://adalab.es">Reason</a></li>
+          <li><a class="block1" href="https://adalab.es">Tips</a></li>
+          <li><a class="block1" href="https://adalab.es">Articles</a></li>
         </ul>
       </nav>
 
       <nav class="link-footer__nav">
-        <ul class="link-footer__ul">
-          <li><a href="https://adalab.es">Twitter</a></li>
-          <li><a href="https://adalab.es">Instagram</a></li>
-          <li><a href="https://adalab.es">Mastodon.social</a></li>
+        <ul class="link-footer__ulink">
+          <li><a class="block1" href="https://adalab.es">Twitter</a></li>
+          <li><a class="block1" href="https://adalab.es">Instagram</a></li>
+          <li><a class="block1" href="https://adalab.es">Mastodon.social</a></li>
         </ul>
       </nav>
 
       <div class="link-footer__copy">
-        <p>&copy;2021</p>
+        <p class="copy">&copy;2021</p>
         <p>We <i class="link-footer__heart fas fa-heart"></i> components</p>
       </div>
     </footer>

@@ -40,12 +40,12 @@
       border: 0.125rem solid #f26002;
     }
 
-    & img {
+    .scrool-1 {
       width: 1.2rem;
     }
   }
 
-  & a {
+  .block1 {
     text-decoration: none;
     color: $color-footer-text;
     transition: ease-in-out 0.3s;
@@ -55,7 +55,7 @@
     }
   }
 
-  &__ul {
+  &__ulink {
     font-family: $font-main;
     font-size: 1rem;
     text-transform: uppercase;
