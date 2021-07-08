@@ -1,4 +1,5 @@
 # ANONYMOUS PROXY
+Esta web esta basada en una maquetación básica partiendo de HTML5 y CSS.
 
 ![Screenshot](./src/images/anonimus.png)
 
